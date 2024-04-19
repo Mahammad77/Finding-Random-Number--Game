@@ -1,0 +1,17 @@
+import random
+target=random.randint(1,100)
+
+
+while True:
+    user=int(input("Enter the target"))
+    if(target==user):
+        print("matched")
+        break
+    elif(user<target):
+        print("Your num is too small.Take a big num")
+    else:
+        print("Your num is too big.Take a small num")
+    
+
+
+print("----Game over----")
